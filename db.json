@@ -59,12 +59,6 @@
       "name": "Emma",
       "email": "emma@example.com",
       "body": "Fast, reliable, and easy to use."
-    },
-    {
-      "id": 11,
-      "name": "",
-      "email": "",
-      "body": ""
     }
   ]
 }
