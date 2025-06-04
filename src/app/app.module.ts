@@ -9,7 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SimpleCrudComponent } from './tasks/task3/components/simple-crud/simple-crud.component';
 import { UserListComponent } from './tasks/task2/components/user-list/user-list.component';
 import { UserDetailsComponent } from './tasks/task2/components/user-details/user-details.component';
-import { CrudTestComponent } from './tasks/task4/components/crud-test/crud-test.component';
+import { CrudTestComponent } from './tasks/task4/components/crud-test/contact.component';
 
 @NgModule({
   declarations: [

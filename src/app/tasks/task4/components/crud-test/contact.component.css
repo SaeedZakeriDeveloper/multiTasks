@@ -43,7 +43,7 @@ body {
 }
 
 .buttons button:first-child {
-  background-color: #ffc107;
+  background-color: blue;
   color: white;
 }
 
@@ -52,16 +52,58 @@ body {
   color: white;
 }
 
-/* Add New User section */
-.add-user-section {
-  margin-top: 30px;
-  background-color: #e8f4fc;
-  border: 1px solid #b6d8f2;
-  border-radius: 8px;
-  padding: 16px;
+/* Add Button */
+.smooth-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
 }
 
-.add-user-section h2 {
+.smooth-btn:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.smooth-btn:active {
+  background-color: #3e8e41;
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Modal backdrop */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  position: relative;
+}
+
+/* Modal Heading */
+.modal-content h2 {
   margin: 0 0 16px 0;
   font-size: 18px;
   font-weight: bold;
@@ -105,25 +147,24 @@ input.form-control:focus {
 .btn.btn-primary:hover {
   background-color: #0056b3;
 }
-.smooth-btn {
-  background-color: #4CAF50; /* green */
+
+.btn.btn-secondary {
+  background-color: #6c757d;
   color: white;
   border: none;
-  padding: 12px 24px;
-  border-radius: 6px;
-  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.smooth-btn:hover {
-  background-color: #45a049;
-  transform: translateY(-2px);
+.btn.btn-secondary:hover {
+  background-color: #5a6268;
 }
 
-.smooth-btn:active {
-  background-color: #3e8e41;
-  transform: translateY(0);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+/* Modal form actions */
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 16px;
 }

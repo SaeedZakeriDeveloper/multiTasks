@@ -2,81 +2,69 @@
   "contacts": [
     {
       "id": 1,
-      "name": "Liam Anderson",
-      "email": "liam.anderson@example.com",
-      "body": "Really impressed with the new dashboard design. It's clean, fast, and intuitive!"
+      "name": "Ava",
+      "email": "ava@example.com",
+      "body": "Login issue resolved, thanks!"
     },
     {
       "id": 2,
-      "name": "Ava Martinez",
-      "email": "ava.martinez@example.com",
-      "body": "I had an issue with the login flow, but your support team was super helpful. Thanks!"
+      "name": "Noah",
+      "email": "noah@example.com",
+      "body": "Please add dark mode!"
     },
     {
       "id": 3,
-      "name": "Noah Thompson",
-      "email": "noah.t@example.com",
-      "body": "Would love to see dark mode in the next update. Everything else works great!"
+      "name": "Sophia",
+      "email": "sophia@example.com",
+      "body": "Great mobile UX!"
     },
     {
       "id": 4,
-      "name": "Sophia Nguyen",
-      "email": "sophia.nguyen@example.com",
-      "body": "The mobile experience is so smooth. Great job on making it responsive!"
+      "name": "Ethan",
+      "email": "ethan@example.com",
+      "body": "Big help for my startup."
     },
     {
       "id": 5,
-      "name": "Ethan Wright",
-      "email": "ethan.w@example.com",
-      "body": "I’m using this for my startup’s internal tools — huge time saver!"
+      "name": "Bella",
+      "email": "bella@example.com",
+      "body": "Simple and effective."
     },
     {
       "id": 6,
-      "name": "Isabella Patel",
-      "email": "isabella.patel@example.com",
-      "body": "Simple, powerful, and gets the job done. Keep up the good work."
+      "name": "James",
+      "email": "james@example.com",
+      "body": "Add Slack or Teams support."
     },
     {
       "id": 7,
-      "name": "James Kim",
-      "email": "j.kim@example.com",
-      "body": "Would be great to have integrations with Slack or Teams."
+      "name": "Mia",
+      "email": "mia@example.com",
+      "body": "App made our work easier!"
     },
     {
       "id": 8,
-      "name": "Mia Rodriguez",
-      "email": "mia.r@example.com",
-      "body": "Just wanted to say thank you — this app made our process so much easier!"
+      "name": "Lucas",
+      "email": "lucas@example.com",
+      "body": "Recommended it to peers."
     },
     {
       "id": 9,
-      "name": "Lucas Chen",
-      "email": "lucas.chen@example.com",
-      "body": "I’ve recommended this to several colleagues. Fantastic tool!"
+      "name": "Liam",
+      "email": "liam@example.com",
+      "body": "Loving the updates!"
     },
     {
       "id": 10,
-      "name": "Amelia Brooks",
-      "email": "amelia.brooks@example.com",
-      "body": "Quick suggestion: a way to export reports as PDFs would be awesome."
+      "name": "Emma",
+      "email": "emma@example.com",
+      "body": "Fast, reliable, and easy to use."
     },
     {
       "id": 11,
-      "name": "Lucas Chen",
-      "email": "lucas.chen@example.com",
-      "body": "I’ve recommended this to several colleagues. Fantastic tool!"
-    },
-    {
-      "id": 12,
-      "name": "Ethan Wrightttttttt",
-      "email": "ethan.w@example.com",
-      "body": "I’m using this for my startup’s internal tools — huge time saver!"
-    },
-    {
-      "id": 13,
-      "name": "saeed",
-      "email": "saeed.zakeri1364@gmail.com",
-      "body": "add new user"
+      "name": "",
+      "email": "",
+      "body": ""
     }
   ]
 }
