@@ -1,0 +1,26 @@
+<div *ngFor="let contact of contacts" class="contact-item">
+    <span>{{ contact.email }}</span>
+    <div class="buttons">
+        <button (click)="onEditButtonClicked(contact.id)">Edit</button>
+        <button (click)="onDeleteButtonClicked(contact.id)">Delete</button>
+    </div>
+</div>
+<button class="smooth-btn" (click)="onAddUserClicked()">Add User</button>
+<div class="add-user-section" *ngIf="isFormVisible">
+<h2>{{ isEditMode ? 'Edit User' : 'Add New User' }}</h2>
+    <form [formGroup]="addEditUserForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="exampleInputName">Name</label>
+            <input type="text" class="form-control" id="exampleInputName" formControlName="name">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" formControlName="email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputBody">Body</label>
+            <input type="text" class="form-control" id="exampleInputBody" formControlName="body">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

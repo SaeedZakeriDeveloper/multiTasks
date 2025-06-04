@@ -1,0 +1,20 @@
+<!-- <p class="text-danger">saeed zakeri</p> -->
+
+
+<form action="" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="">Email</label>
+    <input type="email" name="email" id="email" class="form-control" placeholder="" formControlName="email">
+    <div *ngIf="emailRequiredError" class="text-danger">Email is Required</div>
+    <div *ngIf="emailAddreseError" class="text-danger"> Incorrect Email Address Provided</div>
+
+  </div>
+
+  <div class="form-group">
+    <label for="">Password</label>
+    <input type="password" name="password" id="password" class="form-control" placeholder="" formControlName="password">
+    <div *ngIf="passwordRequiredError" class="text-danger">Password is Required</div>
+    <div *ngIf="passwordMinLengthError" class="text-danger">less than 4 charachter</div>
+  </div>
+  <button type="submit">Submit</button>
+</form>
